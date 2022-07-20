@@ -51,7 +51,7 @@ jupyter notebook
 - Comando de execução do Jupyter Notebook
 
 ```bash
-cd /home/renato/python/jupyter/ && source .venv/bin/activate && jupyter notebook > logs-servidor-jupyter.log 2>&1
+cd /home/<Seu usuário>/python/jupyter/ && source .venv/bin/activate && jupyter notebook > logs-servidor-jupyter.log 2>&1
 ```
 
 >>***Observação:***<br>*Se tudo estiver OK com o servidor Jupyter vamos para criação do serviço no Linux.*
@@ -72,7 +72,7 @@ Type=simple
 Restart=always
 WorkingDirectory=/home/<Seu usuário>/python/jupyter/
 User=<Seu usuário>
-ExecStart=/bin/bash -c ‘cd /home/<Seu usuário>/python/jupyter/ && source .venv/bin/activate && jupyter notebook > logs-servidor-jupyter.log 2>&1’
+ExecStart=/bin/bash -c 'cd /home/<Seu usuário>/python/jupyter/ && source .venv/bin/activate && jupyter notebook > logs-servidor-jupyter.log 2>&1'
 
 [Install]
 WantedBy=multi-user.target
