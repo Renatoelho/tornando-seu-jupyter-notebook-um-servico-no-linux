@@ -4,7 +4,7 @@
 
 Linux Ubuntu 20.04 ou outra distribuição que contenha o Systemd
 
-## Detalhamento implementação:
+## Detalhamento da implementação:
 
 ### 1º Passo configurar um ambiente virtual para Jupyter Notebook
 
