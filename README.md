@@ -6,28 +6,28 @@ Linux Ubuntu 20.04 ou outra distribuição que contenha o Systemd
 
 ## Detalhamento implementação:
 
-- 1º Passo configurar um ambiente virtual para Jupyter Notebook
+### 1º Passo configurar um ambiente virtual para Jupyter Notebook
 
-Verifique se o Python3 está instalado:
+- Verifique se o Python3 está instalado:
 
 ```bash
 python3 -V
 ```
 
-Se sim, não será necessário sua instalação, caso contrário instale com o seguinte comando:
+- Se sim, não será necessário sua instalação, caso contrário instale com o seguinte comando:
 
 ```bash
 sudo apt install python3.8 python3.8-venv -y
 ```
 
-Crie um diretório exclusivo para executar o Jupyter Notebook.
+- Crie um diretório exclusivo para executar o Jupyter Notebook.
 
 ```bash
 cd
-mkdir python/jupyter
+mkdir -p python/jupyter
 ```
 
-Crie um ambiente virtual exclusivo para o Jupyter
+- Crie um ambiente virtual exclusivo para o Jupyter
 
 ```bash
 cd python/jupyter
@@ -114,3 +114,5 @@ sudo systemctl restart jupyter
 ```
 
 ***Pronto! Agora você vai ter seu servidor Jupyter Notebook sempre em execução.***
+
+#### Acesse em: http://localhost:8888 
