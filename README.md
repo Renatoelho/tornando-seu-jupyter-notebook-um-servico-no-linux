@@ -1,5 +1,7 @@
 # Tornando seu Jupyter Notebook um serviço no Linux
 
+Que tal você ter seu servidor ***Jupyter Notebook*** sempre em execução? Neste tutorial vou ensinar como você transforma um servidor Jupyter notebook em um serviço, que sempre estará em execução em seu computador *Linux* *(Ubuntu 20.04 ou qualquer outra distribuição Linux que contenha o Systemd)* e com isso ter mais tempo para desenvolver seus códigos em ***Python***. 
+
 ## Requisitos:
 
 Linux Ubuntu 20.04 ou outra distribuição que contenha o Systemd
