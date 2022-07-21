@@ -111,7 +111,7 @@ systemctl status jupyter
 
 - ***Exemplo:***
 
-![Status Serviço](https://drive.google.com/uc?export=view&id=xxxxxxxxx)
+![Status Serviço](https://drive.google.com/uc?export=view&id=14S9Qj7I3zoTh5jE_dmkJYOwY4l5nGKB_)
 
 ### Parando o serviço no Systemctl
 
