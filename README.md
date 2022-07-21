@@ -4,6 +4,8 @@
 
 Linux Ubuntu 20.04 ou outra distribuição que contenha o Systemd
 
+Python 3.8 ou superior
+
 ## Detalhamento da implementação:
 
 ### 1º Passo configurar um ambiente virtual para Jupyter Notebook
@@ -101,6 +103,16 @@ sudo systemctl start jupyter.service
 sudo systemctl start jupyter
 ```
 
+### Verificando status do serviço
+
+```bash
+systemctl status jupyter
+```
+
+- ***Exemplo:***
+
+![Status Serviço](https://drive.google.com/uc?export=view&id=xxxxxxxxx)
+
 ### Parando o serviço no Systemctl
 
 ```bash
@@ -116,3 +128,8 @@ sudo systemctl restart jupyter
 ***Pronto! Agora você vai ter seu servidor Jupyter Notebook sempre em execução.***
 
 #### Acesse em: http://localhost:8888 
+
+>> ***Referências:***<br>[https://docs.jupyter.org/en/latest/](https://docs.jupyter.org/en/latest/)<br>[https://www.freedesktop.org/software/systemd/man/systemd.service.html](https://www.freedesktop.org/software/systemd/man/systemd.service.html)<br>
+
+
+
