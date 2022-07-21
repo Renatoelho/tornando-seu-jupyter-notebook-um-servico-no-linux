@@ -111,7 +111,7 @@ sudo systemctl start jupyter
 systemctl status jupyter
 ```
 
-- ***Exemplo:***
+***Exemplo:***
 
 ![Status Serviço](https://drive.google.com/uc?export=view&id=14S9Qj7I3zoTh5jE_dmkJYOwY4l5nGKB_)
 
