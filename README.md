@@ -52,6 +52,10 @@ pip install jupyter
 jupyter notebook
 ```
 
+***Servidor funcionando!***
+
+![UP Server Jupyter Notebook](https://drive.google.com/uc?export=view&id=1a84mclF7-_S4-S63aMg-8nW6aj-_w2pE)
+
 - Comando de execução do Jupyter Notebook
 
 ```bash
